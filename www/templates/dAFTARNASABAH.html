@@ -1,0 +1,29 @@
+<ion-view title="DAFTAR NASABAH" id="page11" style="background-color: rgb(221, 0, 0);">
+  <ion-content padding="true" class="has-header">
+    <h1 id="dAFTARNASABAH-heading1" style="color: rgb(255, 255, 255);">Pendaftaran Nasabah Baru</h1>
+    <div id="dAFTARNASABAH-markdown1" class="show-list-numbers-and-dots">
+      <p style="color:#FFFFFF;font-size:16px;">Silahkan mengisi Formulir dibawah untuk pendaftaran Nasabah baru:</p>
+    </div>
+    <form id="dAFTARNASABAH-form3" class="list">
+      <label class="item item-input" id="dAFTARNASABAH-input8" name="Nama Lengkap" >
+        <span class="input-label">Nama Lengkap</span>
+        <input placeholder="" type="text" ng-model="data.namalengkap">
+      </label>
+      <label class="item item-input" id="dAFTARNASABAH-input9" name="Email" >
+        <span class="input-label">Email</span>
+        <input placeholder="" type="email" ng-model="data.emailnasabah"> 
+      </label>
+      <label class="item item-input" id="dAFTARNASABAH-input10" name="No Handphone" >
+        <span class="input-label">No Handphone</span>
+        <input placeholder="" type="tel" ng-model="data.handphone">
+      </label>
+    </form>
+    <div style="margin: 0px; line-height: 250px; background-color: rgb(232, 235, 239); text-align: center;">
+      <i class="icon ion-image" style="font-size: 64px; color: rgb(136, 136, 136); vertical-align: middle;"></i>
+    </div>
+    <button id="dAFTARNASABAH-button33" style="color:#DD0000;" class="button button-light button-block" ng-click="processdata()">Daftar</button>
+    <div>
+      <iframe url="https://www.google.co.id"></iframe>
+    </div>
+  </ion-content>
+</ion-view>
